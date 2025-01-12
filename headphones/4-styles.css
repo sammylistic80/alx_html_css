@@ -10,6 +10,9 @@
 	padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 header {
      background-image: url(images/headphones_hero_1.jpg);
      background-size: cover;
@@ -286,6 +289,3 @@ p {
     margin-top: 60px;
     font-size: 14px;
 }
-  
-  
-  
