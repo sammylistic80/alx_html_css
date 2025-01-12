@@ -1,0 +1,243 @@
+@font-face{
+    font-family: 'SourceSan';
+    src: url(SourceSansPro-Regular.otf);
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+     background-image: url(images/headphones_hero_1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     align-items: center;
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'SourceSan';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #FF6565;
+}
+
+.header-content {
+    text-align: center; /* Center all child elements */
+    padding: 2px; /* Add space around the content */
+    font-family: 'SourceSan'; /* Use clean font */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 35vh;
+    color: white;
+}
+
+.lorem {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    font-family: 'SourceSan';
+}
+
+button {
+    margin-top: 7%;
+    background-color: #FF6565;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    font-size: 0.6rem;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.section1 {
+    position: relative; /* Use relative positioning to adjust placement */
+    top: -150px;         /* Move the section up by 20px */
+    margin-top: 0;      /* Ensure no extra margin is added at the top */
+    align-items: center;
+}
+
+.paragragh 
+{
+    font: 'SourceSan';
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 12.5vh;
+    padding: 20px;
+    color: white;
+}
+
+.para_graph {
+    margin-top: 50px;
+    text-align: center;
+    font-family: SourceSan;
+}
+
+.section1 h2 {
+    text-align: center;
+    color: black;
+}
+
+.section1-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 0 200px;
+}
+
+.section1-content img {
+    padding-left: 50px;
+    height: 70px;
+    margin-bottom: 80px;
+}
+
+.section1-content p {
+    text-align: center;
+}
+p {
+    font-family: SourceSan;
+}
+
+.section2 {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures full-screen height */
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+.results {
+    position: relative;
+    top: -150px; /* Adjust this value to lift it up */
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: SourceSan;
+    text-align: center;
+}
+
+
+.move {
+    position: relative;
+    top: -90px;
+    font-size: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: SourceSan;
+}
+
+.section2-content {
+    position: relative;
+    top: -20px; /* Adjust value to lift the entire content */
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+.section2-content img {
+    height: 200px; /* Fix the image height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.pentagon {
+    position: relative;
+    display: inline-block; /* Ensure proper inline alignment */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 10%; /* Align near the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+    color: #FFFFFF;
+    font-family: SourceSan, sans-serif;
+    font-size: 18px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30%; /* Align near the top */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: SourceSan, sans-serif;
+}
+
+
+.section3 {
+    position: relative;
+    display: flex;               /* Enables Flexbox */
+    flex-direction: column;      /* Stacks items vertically */
+    justify-content: center;     /* Centers items vertically (optional if needed) */
+    align-items: center;         /* Centers items horizontally */
+    gap: 20px;                   /* Adds space between the images */
+    height: 100vh;               /* Optional: Centers content within the viewport */
+    top: -100px;
+}
+
+.section3 h2 {
+    position: relative;
+    top: -100px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: SourceSan;
+}
+
+.section3 h6 {
+    position: relative;
+    bottom: -50px;
+    right: 150px;
+    font-family: SourceSan;
+    color: black;
+}

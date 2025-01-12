@@ -1,0 +1,99 @@
+@font-face{
+    font-family: 'SourceSan';
+    src: url(SourceSansPro-Regular.otf);
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+     background-image: url(images/headphones_hero_1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+     align-items: center;
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'SourceSan';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #FF6565;
+}
+
+.header-content {
+    text-align: center; /* Center all child elements */
+    padding: 2px; /* Add space around the content */
+    font-family: 'SourceSan'; /* Use clean font */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 35vh;
+    color: white;
+}
+
+.lorem {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    font-family: 'SourceSan';
+}
+
+button {
+    margin-top: 7vh;
+    background-color: #FF6565;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    font-size: 0.6rem;
+}
+
+.paragragh 
+{
+    font: 'SourceSan';
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 12.5vh;
+    padding: 20px;
+    color: white;
+  
+}
