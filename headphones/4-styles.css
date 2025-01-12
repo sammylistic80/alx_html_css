@@ -187,6 +187,11 @@ p {
     width: auto;
 }
 
+.section2-content img:hover {
+    transform: scale(1.1);
+
+}
+
 .pentagon {
     position: relative;
     display: inline-block;
